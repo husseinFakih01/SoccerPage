@@ -1,0 +1,63 @@
+
+ul{
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: #0000ff;
+  padding: 5px 20px;
+  border: 1px solid #0000ff;
+  transition: 0.6s ease;
+}
+
+ul li a:hover{
+  background-color: #0000ff80;
+  color: 000;
+
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border-radius: 4px; 
+  margin-top: 6px; 
+ margin-bottom: 20px; 
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: skyblue;
+  padding: 20px;
+}
+
+.header {
+  background-color: skyblue;
+  height: 100px;
+  color: 4f889f;
+  padding: 1px;
+}
